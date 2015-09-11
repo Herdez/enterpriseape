@@ -17,7 +17,7 @@
 
 <p>
   <strong>Salesperson:</strong>
-  <%= @invoice.employee.name %>
+  <%= @invoice.employee.name if @invoice.employee %>
 </p>
 
 <div class="media">
